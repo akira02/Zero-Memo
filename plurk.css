@@ -355,8 +355,9 @@ padding:0px !important;
 .dash-segment:nth-child(1)
 {
 	position:	relative	!important;
-	width:		260px		!important;
+	width:		250px		!important;
 	left:		-90px;
+        line-height: 130%;
 	-webkit-transition: left 0.5s ease-out;
 	-moz-transition: 	left 0.5s ease-out;
 	-o-transition: 		left 0.5s ease-out;
