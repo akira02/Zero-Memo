@@ -80,9 +80,9 @@ background-color: #000000;
 
 /* 浮動發噗時間 */
 .evening, .night, .day, .morning {
-	top: 80% !important;
+	top: 78% !important;
 	width: 200px !important;
-	left: 50% !important;
+	left: 90% !important;
 	padding: 10px !important;
 	margin-left: -125px !important;
 	margin-right: 0px !important;
