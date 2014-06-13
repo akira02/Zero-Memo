@@ -11,7 +11,7 @@ html, body {
 /* 河道 */
 #timeline_holder {
 	height: 88% !important;
-	min-height: 645px; 
+	min-height: 550px; 
 background:url(http://i.imgur.com/BLCsO5U.jpg);
 background-repeat: repeat-x;
 background-position:top left !important;
@@ -246,8 +246,8 @@ left:			1px;
 /* 通知 */
 #updater { 
 position:fixed; 
-	top:				80%		!important;
-	left:				100px	!important;
+	top:				12%		!important;
+	left:				80px	!important;
 	font-size:		1.8em;
 	border:				1px solid #222222;
 	background:			rgba(0,0,0,0.8);
