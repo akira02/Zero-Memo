@@ -3,9 +3,9 @@
 body {
   min-height: 0 !important;
   height: 95vh !important;
-  /*overflow-y: hidden !important;*/
+  overflow-y: hidden !important;
   box-shadow: 0 0 20px #000;
-  font-family: "Heiti TC", Meiryo, "微軟正黑體", "Microsoft JhengHei" !important; 
+  font-family: "Arial", "Heiti TC", Meiryo, "微軟正黑體", "Microsoft JhengHei" ,sans-serif !important; 
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -53,7 +53,6 @@ body {
   right: 1%;
   bottom: 20%;
   left: auto !important;
-
   padding: 10px !important;
   background: none;
   background-color: #000 !important; /* fallback */
@@ -71,8 +70,7 @@ body {
 }
 /* 噗文 */
 .plurk_cnt {
-  position: relative;
-  border-radius: 0 3px 3px;
+  border-radius: 3px;
   background-color: #fff !important;  /* fallback */
   background-image: url(http://i.imgur.com/61wVhKc.jpg) !important;
   background-position: center 70% !important;
@@ -81,19 +79,27 @@ body {
   background-attachment: fixed !important;
   font-size: 1.2em;
   line-height: 1.4;
+  transition: border .5s;
+}
+
+.new .plurk_cnt {
+  box-shadow: 0px 0px 9px 0px rgba(255, 0, 0, 0.4);
+  border: 1px solid rgba(200, 50, 0, 0.7);
 }
 
 /* 選中的噗文 */
 .plurk_box .plurk_cnt {
   border-radius: 0 6px 0 0;
+  border: 1px solid #fff;
+  border-bottom: 0;
 }
 
 /* 發文者姓名 */
 .name {
   font-size: 1.1em;
   text-shadow: 0 0 8px #fff,
-                0 0 8px #fff,
-                0 0 7px #fff !important;
+                 0 0 8px #fff,
+                 0 0 7px #fff !important;
   z-index: 855;
 }
 /* 發文者頭像 */
@@ -111,13 +117,14 @@ body {
 }
 /* 回應計數 */
 .response_count {
-  background: none !important;
   position: relative !important;
   top: -10px;
   left: -13px;
+  background: none !important;
   color: #EEE !important;
   text-shadow: 0 0 5px #000;
   font-size: 2em;
+  transition: color .5s, text-shadow .5s;
 }
 /* 回應計數(未讀) */
 .new .response_count {
@@ -126,6 +133,8 @@ body {
 }
 /* 回應欄 */
 #form_holder {
+  border: 1px solid #fff;
+  border-top: 0;
   background-color: #fff !important;  /* fallback */
   background-image: url(http://i.imgur.com/61wVhKc.jpg) !important;
   background-position: center 70% !important;
@@ -545,4 +554,12 @@ footer {
 
   width: 0 !important;
   height: 0 !important;
+}
+.response_time {
+  border: 1px solid #fff;
+  border-left: 0;
+  border-radius: 0;
+}
+.response_time .holder {
+  background: none !important;
 }
