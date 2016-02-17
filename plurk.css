@@ -51,7 +51,7 @@ body {
 #time_show {
   top: auto !important;
   right: 1%;
-  bottom: 20%;
+  bottom: 10%;
   left: auto !important;
   padding: 10px !important;
   background: none;
@@ -63,6 +63,7 @@ body {
   font-size: 2em !important;
   font-weight: bold;
 }
+
 /* 去除連結背景, 左側線條 */
 .plurk .meta {
   border: none !important;
@@ -77,13 +78,22 @@ body {
   background-size: 100vw auto !important;
   background-repeat: repeat-y !important;
   background-attachment: fixed !important;
+  border: 1px solid rgba(255, 255, 255, 0);
+  box-sizing: content-box;
+
   font-size: 1.2em;
   line-height: 1.4;
+
   transition: border .5s;
 }
 
+.plurk_cnt .text_holder {
+  text-shadow: 0 0 6px #fff,
+                 0 0 6px #fff  !important;
+}
+
 .new .plurk_cnt {
-  box-shadow: 0px 0px 9px 0px rgba(255, 0, 0, 0.4);
+  box-shadow: 0px 0px 9px 0px rgba(200, 50, 0, 0.4);
   border: 1px solid rgba(200, 50, 0, 0.7);
 }
 
@@ -98,7 +108,6 @@ body {
 .name {
   font-size: 1.1em;
   text-shadow: 0 0 8px #fff,
-                 0 0 8px #fff,
                  0 0 7px #fff !important;
   z-index: 855;
 }
@@ -124,7 +133,6 @@ body {
   color: #EEE !important;
   text-shadow: 0 0 5px #000;
   font-size: 2em;
-  transition: color .5s, text-shadow .5s;
 }
 /* 回應計數(未讀) */
 .new .response_count {
@@ -332,13 +340,6 @@ body {
 #dashboard_holder:hover #dash-additional-info {
   max-height: 400px;
 }
-/* 傳送私噗按鈕 */
-#private_plurk {
-  position: relative !important;
-  top: -10px;
-  left: 0;
-  white-space: nowrap;
-}
 /* 各欄標題樣式 */
 .segment-content h2 {
   display : -webkit-box !important;
@@ -416,10 +417,11 @@ body {
   max-height: 0;
   height: auto !important;
   margin: 0 !important;
-  /* 使overflow: hidden對table生效 */
-  display : block;
+  /* 使overflow-y: hidden對table生效 */
+  display : inline-block;
   clear: both;
-  overflow: hidden;
+  overflow-x: visible;
+  overflow-y: hidden;
   -webkit-transition: max-height .5s;
           transition: max-height .5s;
 }
@@ -443,15 +445,16 @@ body {
 }
 /* 加入好友按鈕, 追蹤按鈕 */
 .friend_man {
+  display : block;
+  white-space: nowrap;
   background: none !important;
   border: none !important;
   color: LightGray !important;
-  font-size: 1em !important;
-  -webkit-transition: font-size 1s;
-          transition: font-size 1s;
+  font-size: 1.5em !important;
+  transition: font-size 1s cubic-bezier(.5, -0.5, .5, 2);
 }
 .friend_man:hover {
-  font-size: 4em !important;
+  font-size: 5em !important;
 }
 /* 動詞選擇器 */
 .qual_holder {
@@ -551,7 +554,6 @@ footer {
   position: absolute;
   bottom: 20px;
   left: 20px;
-
   width: 0 !important;
   height: 0 !important;
 }
