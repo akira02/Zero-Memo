@@ -13,6 +13,9 @@ The high-resolution display friendly CSS. Using flat design.
  
 我他X的怎麼會知道。
 
+2/18新增：Lite版本 只使用半透明沒有玻璃磨砂效果
+可是我怎麼覺得沒差多少QwQ
+
 ##特色
 + 支援大螢幕（原生的河道那樣小）
 + 當然小螢幕也支援
@@ -23,12 +26,20 @@ The high-resolution display friendly CSS. Using flat design.
 + 軟萌感！
 
 ##使用例
-###一般模式
+
+###一般玻璃磨砂版
+####一般模式
 ![image](http://i.imgur.com/wRwssRX.png)
-###展開資訊面板
+####展開資訊面板
 ![image](http://i.imgur.com/s70PfL3.png)
-###回應欄
+####回應欄
 ![image](http://i.imgur.com/yyhXesP.png)
+
+###Lite半透明版
+####一般模式
+![image](http://i.imgur.com/IehPIBx.png)
+####展開資訊面板
+![image](http://i.imgur.com/ZTBideZ.png)
 
 
 ##替換背景
