@@ -25,8 +25,7 @@ body {
     /* △未模糊背景圖片 */
     background-image: url(http://i.imgur.com/Jyo0BVk.jpg) !important;
     background-position: center 70% !important;
-    background-size: 100vw auto !important;
-    background-repeat: repeat-y !important;
+    background-size: cover !important;
     background-attachment: fixed !important;
 }
 
@@ -93,8 +92,7 @@ body {
     /* ☆白色模糊背景圖片 */
     background-image: url(http://i.imgur.com/61wVhKc.jpg) !important;
     background-position: center 70% !important;
-    background-size: 100vw auto !important;
-    background-repeat: repeat-y !important;
+    background-size: cover !important;
     background-attachment: fixed !important;
     border: 1px solid #ffffff;
     border: 1px solid rgba(255, 255, 255, 0);
@@ -175,8 +173,7 @@ body {
     /* ☆白色模糊背景圖片 */
     background-image: url(http://i.imgur.com/61wVhKc.jpg) !important;
     background-position: center 70% !important;
-    background-size: 100vw auto !important;
-    background-repeat: repeat-y !important;
+    background-size: cover !important;
     background-attachment: fixed !important;
 }
 
@@ -204,8 +201,7 @@ body {
     /* ★黑色模糊背景圖片 */
     background-image: url(http://i.imgur.com/xAYxWg4.jpg) !important;
     background-position: center 70% !important;
-    background-size: 100vw auto !important;
-    background-repeat: repeat-y !important;
+    background-size: cover !important;
     background-attachment: fixed !important;
     -webkit-transition: left .5s;
             transition: left .5s;
@@ -291,8 +287,7 @@ body {
     /* ★黑色模糊背景圖片 */
     background-image: url(http://i.imgur.com/xAYxWg4.jpg) !important;
     background-position: center 70% !important;
-    background-size: 100vw auto !important;
-    background-repeat: repeat-y !important;
+    background-size: cover !important;
     background-attachment: fixed !important;
     color: LightGray;
     -webkit-transition: right .5s !important;
