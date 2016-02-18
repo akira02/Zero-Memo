@@ -28,9 +28,14 @@ The high-resolution display friendly CSS. Using flat design.
 ##安裝
 
 ###方法一：使用噗浪安裝連結
+
 Lite半透明版： http://www.plurk.com/installDesign/7550387-81083fba01
+
 一般玻璃磨砂版：http://www.plurk.com/installDesign/7550387-ce5c151a36
-###方法二：將 CSS 文件內容複製至您的噗浪「自訂佈景風格」欄位中貼上，按「儲存並更新」
+
+###方法二：
+
+將 CSS 文件內容複製至您的噗浪「自訂佈景風格」欄位中貼上，按「儲存並更新」
 
 ##使用例
 
