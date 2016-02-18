@@ -1,0 +1,656 @@
+/* Design by 千秋 @akira02 */
+/* Lite版本 */
+
+/* 根元素 */
+
+body {
+    min-height: 0 !important;
+    height: 95vh !important;
+    overflow-y: hidden !important;
+    box-shadow: 0 0 20px #000;
+    font-family: "Arial", "Heiti TC", Meiryo, "微軟正黑體", "Microsoft JhengHei", sans-serif !important;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga" on;
+}
+
+/* 河道 */
+
+#timeline_holder {
+    position: relative;
+    width: 100%;
+    height: 100% !important;
+    background-color: #000 !important; /* fallback */
+    /* 背景圖片 */
+    background-image: url(http://i.imgur.com/Jyo0BVk.jpg) !important;
+    background-position: center 70% !important;
+    background-size: 100vw auto !important;
+    background-repeat: repeat-y !important;
+    background-attachment: fixed !important;
+}
+
+/* 噗文能出現的範圍 */
+
+#timeline_cnt {
+    top: 5% !important;
+    height: 80% !important;
+}
+
+/* 避免噗文展開後被切掉 */
+
+#timeline_cnt, .block_cnt {
+    overflow-y: visible;
+}
+
+.div_inner {
+    height: auto !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+/* 時間標籤置頂 */
+
+.bottom_start {
+    position: absolute;
+    top: 0;
+    z-index: 800;
+    color: #000 !important;
+}
+
+/* 浮動發噗時間 */
+
+#time_show {
+    top: auto !important;
+    right: 1%;
+    bottom: 10%;
+    left: auto !important;
+    padding: 10px !important;
+    background: none;
+    background-color: #000000 !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+#time_show span {
+    color: #fff !important;
+    font-size: 2em !important;
+    font-weight: bold;
+}
+
+/* 去除連結背景, 左側線條 */
+
+.plurk .meta {
+    border: none !important;
+    background: none !important;
+}
+
+/* 噗文 */
+
+.plurk_cnt {
+    border-radius: 3px;
+    background-color: rgba(255,255,255,0.6) !important;
+    background-position: center 70% !important;
+    background-size: 100vw auto !important;
+    background-repeat: repeat-y !important;
+    background-attachment: fixed !important;
+    border: 1px solid #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0);
+    box-sizing: content-box;
+    font-size: 1.2em;
+    line-height: 1.4;
+    -webkit-transition: border .5s;
+            transition: border .5s;
+}
+
+.new .plurk_cnt {
+    box-shadow: 0px 0px 9px 0px rgba(200, 50, 0, 0.4);
+    border: 1px solid #c83200;
+    border: 1px solid rgba(200, 50, 0, 0.7);
+    background-color: rgba(255,255,255,0.9) !important;
+}
+
+/* 選中的噗文 */
+
+.plurk_box .plurk_cnt {
+    border-radius: 0 3px 0 0;
+    border: 1px solid #fff;
+    border-bottom: 0 solid rgba(255, 255, 255, 0);
+    background-color: rgba(255,255,255,0.95) !important;
+}
+
+/* 發文者姓名 */
+
+.name {
+    font-size: 1.1em;
+    z-index: 855;
+}
+
+/* 發文者頭像 */
+
+.p_img {
+    position: relative !important;
+    top: -20px;
+    left: 0;
+    z-index: 845;
+}
+
+.p_img img {
+    width: 35px !important;
+    height: 35px !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+
+/* 回應計數 */
+
+.response_count {
+    position: relative !important;
+    top: -10px;
+    left: -13px;
+    background: none !important;
+    color: #EEE !important;
+    text-shadow: 0 0 5px #000;
+    font-size: 2em;
+}
+
+/* 回應計數(未讀) */
+
+.new .response_count {
+    color: #f23c3c !important;
+    text-shadow: 0 0 5px #e88d43;
+}
+
+/* 回應欄 */
+
+#form_holder {
+    border: 1px solid #fff;
+    border-top: 0;
+    background-color: rgba(255,255,255,0.95) !important; 
+    background-position: center 70% !important;
+    background-size: 100vw auto !important;
+    background-repeat: repeat-y !important;
+    background-attachment: fixed !important;
+}
+
+/* 去除回應欄內元素的背景, 框線 */
+
+.list .plurk_cnt, .response_box, .mini_form, .info_box, .login_to_see {
+    background: none !important;
+    border: none !important;
+}
+
+/* 個人資訊面板 */
+
+#dashboard_holder {
+    min-width: 0;
+    min-height: 0;
+    width: auto;
+    position: absolute !important;
+    top: 42px;
+    bottom: 0;
+    left: -240px;
+    margin: 0 !important;
+    z-index: 910;
+    background-color: #000000 !important;
+    background-color: rgba(50, 50, 50, 0.7) !important;
+    background-position: center 70% !important;
+    background-size: 100vw auto !important;
+    background-repeat: repeat-y !important;
+    background-attachment: fixed !important;
+    -webkit-transition: left .5s;
+            transition: left .5s;
+}
+
+#dashboard_holder:hover {
+    left: 0;
+}
+
+#plurk-dashboard {
+    background: none !important;
+    border: none !important;
+}
+
+/* 使各面板垂直排列 */
+
+.dash-segment {
+    clear: both;
+    width: auto !important;
+}
+
+.segment-content {
+    background: none !important;
+    border-radius: 0 !important;
+}
+
+/* 發文面板 */
+
+.dash-group-form {
+    position: fixed !important;
+    top: 80% !important;
+    left: 30%;
+    width: auto !important;
+    z-index: 910 !important;
+    background-color: #e6e6e6;
+    background-color: rgba(230, 230, 230, 0.8);
+    color: #000;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px 2px rgba(0, 0, 0, 0.8);
+}
+
+#plurk_form textarea {
+    max-height: 380px !important;
+    width: 40vw !important;
+}
+
+/* 各欄樣式 */
+
+#dash-additional-info, #dash-stats, #dash-friends, #dash-fans, #dash-award {
+    width: 290px !important;
+    position: relative;
+    padding: 5px;
+    font-size: .9em;
+    color: #fff !important;
+}
+
+.segment-content h2 {
+    color: LightGray !important;
+    background: none !important;
+    font-size: 1.5em !important;
+    font-weight: bold;
+}
+
+.segment-content a {
+    color: #C00 !important;
+    text-decoration: none !important;
+}
+
+.segment-content a:hover {
+    color: red !important;
+}
+
+/* 個人簡介欄外框 */
+
+.dash-segment-profile :first-child.segment-content {
+    height: auto !important;
+    width: 220px !important;
+    position: fixed !important;
+    top: 80px;
+    right: -180px !important;
+    background-color: #000000 !important;
+    background-color: rgba(50, 50, 50, 0.7) !important;
+    background-position: center 70% !important;
+    background-size: 100vw auto !important;
+    background-repeat: repeat-y !important;
+    background-attachment: fixed !important;
+    color: LightGray;
+    -webkit-transition: right .5s !important;
+            transition: right .5s !important;
+}
+
+#dashboard_holder:hover .dash-segment-profile :first-child.segment-content {
+    right: 0 !important;
+}
+
+/* 個人簡介欄 */
+
+#dash-profile {
+    width: 100% !important;
+    height: auto !important;
+    padding: 5px !important;
+}
+
+/* 大頭貼 */
+
+#profile_pic {
+    height: auto !important;
+    width: auto !important;
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+    border-radius: 10px;
+    position: relative !important;
+}
+
+.profile-info {
+    position: initial !important;
+}
+
+#full_name, .profile-info {
+    line-height: 1.4em;
+    text-align: right;
+    margin: 0 !important;
+}
+
+#full_name {
+    font-size: 17px;
+    display : -webkit-box;
+    display : -webkit-flex;
+    display : -ms-flexbox;
+    display : flex;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content : flex-end;
+    -ms-flex-pack: end;
+            justify-content : flex-end;
+    -webkit-box-align: baseline;
+    -webkit-align-items: baseline;
+    -ms-flex-align: baseline;
+            align-items: baseline;
+}
+
+.display_name {
+    margin-right: auto;
+}
+
+#span_years {
+    font-weight: 700;
+}
+
+#location {
+    font-style: italic;
+}
+
+/* Karma值 */
+
+#karma_holder {
+    position: fixed !important;
+    top: 320px;
+    z-index: 9999;
+    background: #000000;
+    background: rgba(0, 0, 0, 0);
+    left: 100vw !important;
+    margin-left: -30px;
+    -webkit-transition: margin-left .5s;
+            transition: margin-left .5s;
+}
+
+#dashboard_holder:hover #karma_holder {
+    /* (原左移(30px) + 個人簡介欄左移(180px)) * -1 */
+    margin-left: -210px;
+}
+
+/* 自我介紹欄 */
+
+#dash-additional-info {
+    max-height: 0;
+    -webkit-transition: max-height 0.5s;
+            transition: max-height 0.5s;
+}
+
+#dashboard_holder:hover #dash-additional-info {
+    max-height: 400px;
+}
+
+/* 各欄標題樣式 */
+
+.segment-content h2 {
+    display : -webkit-box !important;
+    display : -webkit-flex !important;
+    display : -ms-flexbox !important;
+    display : flex !important;
+    -webkit-flex-flow: row nowrap;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+            align-items: center;
+    /* 第1: 文字 */
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+            order: 1;
+}
+
+/* 第2: 分隔線 */
+
+.segment-content h2::before {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+            order: 2;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+            flex-grow: 1;
+    height: 2px;
+    margin: 5px;
+    content : "";
+    background-color: LightGray;
+}
+
+/* 第3: icon */
+
+.segment-content h2::after {
+    -webkit-box-ordinal-group: 4;
+    -webkit-order: 3;
+    -ms-flex-order: 3;
+            order: 3;
+}
+
+/* 圖示樣式 */
+
+#dash-additional-info::before, .segment-content h2::after {
+    width: 1.5em !important;
+    color: LightGray;
+    font-size: 1.5em !important;
+    text-align: center;
+    font-family: FontAwesome !important;
+    font-weight: 100 !important;
+}
+
+/* 圖示代碼 */
+
+#dash-additional-info::before {
+    content : ""; /* terminal */
+}
+
+#dash-stats h2::after {
+    content : ""; /* line-chart */
+}
+
+#dash-friends h2::after {
+    content : ""; /* child */
+}
+
+#dash-fans h2::after {
+    content : ""; /* star-o */
+}
+
+/* (統計欄, 朋友欄, 粉絲欄)除標題外的內容 */
+
+.dash-stats-karma, #dash-stats-table, #friend_managment, #dash-friends-pics,
+#fan_managment, #dash-fans-pics {
+    max-height: 0;
+    height: auto !important;
+    margin: 0 !important;
+    /* 使overflow-y: hidden對table生效 */
+    display : inline-block;
+    clear: both;
+    overflow-x: visible;
+    overflow-y: hidden;
+    -webkit-transition: max-height .5s;
+            transition: max-height .5s;
+}
+
+:hover.segment-content .dash-stats-karma,
+:hover.segment-content #dash-stats-table,
+:hover.segment-content #friend_managment,
+:hover.segment-content #dash-friends-pics, :hover.segment-content #fan_managment,
+:hover.segment-content #dash-fans-pics {
+    max-height: 200px; /* 大於以上任一元素原高度的數字 */
+}
+
+/* 防止Karma趨勢圖出現 */
+
+.karma_hover {
+    pointer-events: none;
+}
+
+/* 狀態數值 */
+
+#dash-stats td {
+    color: #fff !important;
+    font-weight: 700;
+}
+
+/* 加入好友按鈕, 追蹤按鈕 */
+
+.friend_man {
+    display : block;
+    white-space: nowrap;
+    background: none !important;
+    border: none !important;
+    color: LightGray !important;
+    font-size: 1.5em !important;
+    -webkit-transition: font-size 1s cubic-bezier(.5, -0.5, .5, 2);
+            transition: font-size 1s cubic-bezier(.5, -0.5, .5, 2);
+}
+
+.friend_man:hover {
+    font-size: 5em !important;
+}
+
+/* 動詞選擇器 */
+
+.qual_holder {
+    color: #EEE !important;
+    font-weight: 700;
+}
+
+/* 動詞選項 */
+
+.qualifier, .m_qualifier {
+    border: 0 !important;
+    background: 0 !important;
+    color: #888;
+}
+
+/* 動詞文字顏色 */
+
+.q_is {
+    color: #e57c43;
+}
+
+.q_says {
+    color: #e2560b;
+}
+
+.q_needs {
+    color: #7a9a37;
+}
+
+.q_hopes {
+    color: #e05be9;
+}
+
+.q_feels {
+    color: #2d83be;
+}
+
+.q_thinks {
+    color: #689cc1;
+}
+
+.q_wants {
+    color: #8db241;
+}
+
+.q_wishes {
+    color: #5bb017;
+}
+
+.q_has {
+    color: #777;
+}
+
+.q_loves {
+    color: #b20c0c;
+}
+
+.q_hates {
+    color: #111;
+}
+
+.q_asks {
+    color: #8361bc;
+}
+
+.q_will {
+    color: #b46db9;
+}
+
+.q_was {
+    color: #525252;
+}
+
+.q_had {
+    color: #8c8c8c;
+}
+
+.q_likes {
+    color: #cb2728;
+}
+
+.q_shares {
+    color: #a74949;
+}
+
+.q_gives {
+    color: #620e0e;
+}
+
+.q_wonders {
+    color: #2e4e9e;
+}
+
+.q_whispers {
+    color: #32007e;
+}
+
+.q_replurks {
+    color: #3b8610;
+}
+
+/* 隱藏垃圾 */
+
+.adsense, /* 底部廣告 */
+#resp_banner_ads, /* 回覆底部廣告 */
+.browse_button,
+/* 左右箭頭 */
+#dynamic_logo, /* 背景logo */
+#bottom_line, /* 時間軸線 */
+.link_arrow,
+/* 教學連結 */
+footer {
+    min-height: 0 !important;
+    min-width: 0 !important;
+    height: 0 !important;
+    width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    overflow: hidden !important;
+}
+
+/* 避免底部bar擋到東西 */
+
+.timeline_control {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+.response_time {
+    border: 1px solid #fff;
+    border-left: 0;
+    border-radius: 0;
+}
+
+.response_time .holder {
+    background: none !important;
+}
