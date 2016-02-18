@@ -39,6 +39,7 @@ The high-resolution display friendly CSS. Using flat design.
 在CSS中有註解，△未模糊背景圖片，☆白色模糊背景圖片，以及★黑色模糊背景圖片，共六處。
 自動模糊替換程式正在製作中，幫我們加加油打氣吧！
 
+
 ##製作
 設計、CSS編寫：千秋きつね☆稻荷台灣分社
 
