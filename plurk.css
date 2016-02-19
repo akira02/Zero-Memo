@@ -6,7 +6,7 @@
 body {
     min-height: 0 !important;
     height: 95vh !important;
-    overflow-y: hidden !important;
+/*    overflow-y: hidden !important;*/
     box-shadow: 0 0 20px #000;
     font-family: "Arial", "Heiti TC", Meiryo, "微軟正黑體", "Microsoft JhengHei", sans-serif !important;
     text-rendering: optimizeLegibility;
@@ -27,6 +27,7 @@ body {
     background-position: center 70% !important;
     background-size: cover !important;
     background-attachment: fixed !important;
+    overflow-y: visible !important;
 }
 
 /* 噗文能出現的範圍 */
@@ -34,12 +35,13 @@ body {
 #timeline_cnt {
     top: 5% !important;
     height: 80% !important;
+    overflow-y: visible !important;
 }
 
 /* 避免噗文展開後被切掉 */
 
 #timeline_cnt, .block_cnt {
-    overflow-y: visible;
+    overflow-y: visible !important;
 }
 
 .div_inner {
@@ -217,7 +219,8 @@ body {
 }
 
 /* 使各面板垂直排列 */
-
+.dash-group-left,
+.dash-group-right,
 .dash-segment {
     clear: both;
     width: auto !important;
