@@ -29,9 +29,9 @@ The high-resolution display friendly CSS. Using flat design.
 
 ###方法一：使用噗浪安裝連結
 
-Lite半透明版： http://www.plurk.com/installDesign/7550387-631a536a1d
+Lite半透明版： http://www.plurk.com/installDesign/7550387-3e4c27e40d
 
-一般玻璃磨砂版：http://www.plurk.com/installDesign/7550387-7d3d19e686
+一般玻璃磨砂版：http://www.plurk.com/installDesign/7550387-5c89e5fc68
 
 ###方法二：
 
