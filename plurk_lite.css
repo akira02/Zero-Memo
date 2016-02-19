@@ -209,6 +209,8 @@ body {
 
 /* 使各面板垂直排列 */
 
+.dash-group-left,
+.dash-group-right,
 .dash-segment {
     clear: both;
     width: auto !important;
