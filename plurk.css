@@ -270,6 +270,7 @@ body {
     background: none !important;
     font-size: 1.5em !important;
     font-weight: bold;
+    border-bottom: 0 !important;
 }
 
 .segment-content a {
