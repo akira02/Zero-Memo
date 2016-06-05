@@ -1,6 +1,7 @@
 #零ノメモ Zero Memo: The Plurk custom CSS
 
 Work in progress
+
 The high-resolution display friendly CSS. Using flat design. 
 
 ##介紹
@@ -38,7 +39,8 @@ Lite半透明版： http://www.plurk.com/installDesign/7550387-3e4c27e40d
 ###方法二：
 
 將 CSS 文件內容複製至您的噗浪「自訂佈景風格」欄位中貼上，按「儲存並更新」
-玻璃磨砂版可以使用CSS產生器 http://akira.eu.org/Zero-Memo/ 
+
+玻璃磨砂版可以使用CSS產生器 http://akira.eu.org/Zero-Memo/ 使用您的圖片生成 CSS 後複製至您的噗浪「自訂佈景風格」欄位。
 
 ##使用例
 
