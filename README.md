@@ -16,6 +16,8 @@ The high-resolution display friendly CSS. Using flat design.
 2/18新增：Lite版本 只使用半透明沒有玻璃磨砂效果
 可是我怎麼覺得沒差多少QwQ
 
+6/5新增：因應噗幣擴展表符上限，可以爽爽用組合表情符號，加上了組合表符無縫功能
+
 ##特色
 + 支援大螢幕（原生的河道那樣小）
 + 當然小螢幕也支援
