@@ -1,4 +1,4 @@
-#零ノメモ Zero Memo: The Plurk costum CSS
+#零ノメモ Zero Memo: The Plurk custom CSS
 
 Work in progress
 The high-resolution display friendly CSS. Using flat design. 
