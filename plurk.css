@@ -669,3 +669,7 @@ footer {
 .response_time .holder {
     background: none !important;
 }
+/* 組合表情符號無縫 */
+.emoticon_my + .emoticon_my,
+.emoticon_my_wrapper + .emoticon_my,
+.emoticon_my + .emoticon_my_wrapper { margin-left: -4px; }
