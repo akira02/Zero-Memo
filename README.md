@@ -31,7 +31,7 @@ The high-resolution display friendly CSS. Using flat design.
 
 Lite半透明版： http://www.plurk.com/installDesign/7550387-3e4c27e40d
 
-一般玻璃磨砂版：http://www.plurk.com/installDesign/7550387-5c89e5fc68
+一般玻璃磨砂版：http://www.plurk.com/installDesign/7550387-e92025daa5
 
 ###方法二：
 
@@ -66,6 +66,7 @@ http://akira.eu.org/Zero-Memo/
 總共需要替換五處位置，分別是一張原圖及兩張加亮模糊，兩張加暗模糊。
 
 在CSS中有註解，△未模糊背景圖片，☆白色模糊背景圖片，以及★黑色模糊背景圖片，共六處。
+/*# BACKGROUND timeline #*/是給CSS產生器使用的信標。
 
 
 ##製作
