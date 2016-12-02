@@ -520,12 +520,6 @@ body {
     border: none !important;
     color: LightGray !important;
     font-size: 1.5em !important;
-    -webkit-transition: font-size 1s cubic-bezier(.5, -0.5, .5, 2);
-            transition: font-size 1s cubic-bezier(.5, -0.5, .5, 2);
-}
-
-.friend_man:hover {
-    font-size: 5em !important;
 }
 
 /* 動詞選擇器 */
