@@ -34,7 +34,7 @@ The high-resolution display friendly CSS. Using flat design.
 
 Lite半透明版： http://www.plurk.com/installDesign/7550387-3e4c27e40d
 
-一般玻璃磨砂版：http://www.plurk.com/installDesign/7550387-e92025daa5
+一般玻璃磨砂版：http://www.plurk.com/installDesign/7550387-288ff33da4
 
 ###方法二：
 
