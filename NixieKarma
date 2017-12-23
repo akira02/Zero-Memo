@@ -9,7 +9,7 @@
 #karma {
   position: relative;
   display: inline-block;
-  text-align: left;
+  text-align: right;
   font-family: nixie2;
   font-size: 1.15em;
   width: 3.5em;
