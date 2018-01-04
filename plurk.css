@@ -8,11 +8,11 @@ body {
     height: 95vh !important;
 /*    overflow-y: hidden !important;*/
     box-shadow: 0 0 20px #000;
-    font-family: "Arial", "Heiti TC", Meiryo, "微軟正黑體", "Microsoft JhengHei", sans-serif !important;
+    font-family: 'Arial', 'Heiti TC', Meiryo, '微軟正黑體', 'Microsoft JhengHei', sans-serif !important;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    -moz-font-feature-settings: "liga" on;
+    -moz-font-feature-settings: 'liga' on;
 }
 
 /* 河道 */
@@ -374,8 +374,8 @@ body {
 
 @font-face {
   font-family: nixie2;
-  src: url(https://akira.eu.org/assets/AkiNixieNumber-Regular.woff2) format('woff2'),
-  url(https://akira.eu.org/assets/AkiNixieNumber-Regular.woff) format('woff');
+  src: url('https://akira.eu.org/assets/AkiNixieNumber-Regular.woff2') format('woff2'),
+  url('https://akira.eu.org/assets/AkiNixieNumber-Regular.woff') format('woff');
 }
 
 #karma {
@@ -464,7 +464,7 @@ body {
             flex-grow: 1;
     height: 2px;
     margin: 5px;
-    content : "";
+    content : '';
     background-color: LightGray;
 }
 
@@ -491,19 +491,19 @@ body {
 /* 圖示代碼 */
 
 #dash-additional-info::before {
-    content : ""; /* terminal */
+    content : ''; /* terminal */
 }
 
 #dash-stats h2::after {
-    content : ""; /* line-chart */
+    content : ''; /* line-chart */
 }
 
 #dash-friends h2::after {
-    content : ""; /* child */
+    content : ''; /* child */
 }
 
 #dash-fans h2::after {
-    content : ""; /* star-o */
+    content : ''; /* star-o */
 }
 
 /* (統計欄, 朋友欄, 粉絲欄)除標題外的內容 */
