@@ -59,9 +59,10 @@ body {
     position: absolute;
     top: 0;
     z-index: 800;
-    color: #000 !important;
+    color: #fff !important;
+    background-color: #000;
     height: 18px;
-    opacity:0.8;
+    opacity:0.5;
 }
 
 /* 浮動發噗時間 */
