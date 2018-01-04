@@ -32,9 +32,7 @@ The high-resolution display friendly CSS. Using flat design.
 
 ### 方法一：使用噗浪安裝連結
 
-*目前暫時沒在更新，建議使用方法二直接複製*
-
-一般玻璃磨砂版：http://www.plurk.com/installDesign/7550387-288ff33da4
+一般玻璃磨砂版：https://www.plurk.com/installDesign/7550387-5bbb59116c
 
 
 ### 方法二：
