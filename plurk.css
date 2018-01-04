@@ -99,7 +99,7 @@ body {
     background-color: #fff !important; /* fallback */
     /* ☆白色模糊背景圖片 */
     background-image: url(http://i.imgur.com/61wVhKc.jpg) !important;
-    background-position: center 70% !important;
+    background-position: center !important;
     background-size: cover !important;
     background-attachment: fixed !important;
     border: 1px solid #ffffff;
@@ -181,7 +181,7 @@ body {
     background-color: #fff !important; /* fallback */
     /* ☆白色模糊背景圖片 */
     background-image: url(http://i.imgur.com/61wVhKc.jpg) !important;
-    background-position: center 70% !important;
+    background-position: center !important;
     background-size: cover !important;
     background-attachment: fixed !important;
 }
@@ -210,7 +210,7 @@ body {
     background-color: #000000 !important;
     /* ★黑色模糊背景圖片 */
     background-image: url(http://i.imgur.com/xAYxWg4.jpg) !important;
-    background-position: center 70% !important;
+    background-position: center !important;
     background-size: cover !important;
     background-attachment: fixed !important;
     -webkit-transition: left .5s;
@@ -304,7 +304,7 @@ body {
     background-color: rgba(0, 0, 0, 0.8) !important;
     /* ★黑色模糊背景圖片 
     background-image: url(http://i.imgur.com/xAYxWg4.jpg) !important; */
-    background-position: center 70% !important;
+    background-position: center !important;
     background-size: cover !important;
     background-attachment: fixed !important;
     color: LightGray;
