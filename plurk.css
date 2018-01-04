@@ -8,7 +8,7 @@ body {
     height: 95vh !important;
 /*    overflow-y: hidden !important;*/
     box-shadow: 0 0 20px #000;
-    font-family: 'Arial', 'Heiti TC', Meiryo, '微軟正黑體', 'Microsoft JhengHei', sans-serif !important;
+    font-family: 'Arial','LiHei Pro', 'Heiti TC', 'Meiryo', '微軟正黑體', 'Microsoft JhengHei',  sans-serif !important;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -204,8 +204,8 @@ body {
     left: -240px;
     margin: 0 !important;
     z-index: 910;
-    background-color: #000000 !important;
     background-color: rgba(0, 0, 0, 0.8) !important;
+    background-color: #000000 !important;
     /* ★黑色模糊背景圖片 */
     background-image: url(http://i.imgur.com/xAYxWg4.jpg) !important;
     background-position: center 70% !important;
@@ -296,8 +296,8 @@ body {
     right: -180px !important;
     background-color: #000000 !important;
     background-color: rgba(0, 0, 0, 0.8) !important;
-    /* ★黑色模糊背景圖片 */
-    background-image: url(http://i.imgur.com/xAYxWg4.jpg) !important;
+    /* ★黑色模糊背景圖片 
+    background-image: url(http://i.imgur.com/xAYxWg4.jpg) !important; */
     background-position: center 70% !important;
     background-size: cover !important;
     background-attachment: fixed !important;
