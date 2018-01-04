@@ -241,8 +241,9 @@ body {
 
 .dash-group-form {
     position: fixed !important;
-    top: 80% !important;
-    left: 30%;
+    bottom: 50px !important;
+    left: 50%;
+    transform: translate(-50%, 0);
     width: auto !important;
     z-index: 910 !important;
     background-color: #e6e6e6;
