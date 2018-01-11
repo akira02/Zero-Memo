@@ -32,37 +32,33 @@ The high-resolution display friendly CSS. Using flat design.
 
 ### 方法一：使用噗浪安裝連結
 
-一般玻璃磨砂版：https://www.plurk.com/installDesign/7550387-cbbc8027d6
+https://www.plurk.com/installDesign/7550387-cbbc8027d6
 
 
-### 方法二：
+### 方法二：自己貼CSS！
 
-將 CSS 文件內容複製至您的噗浪「自訂佈景風格」欄位中貼上，按「儲存並更新」
+將 CSS 文件內容複製至您的噗浪，右上角點選自己的帳號，選「自訂佈景風格」，在該欄位中貼上此CSS，並按「儲存並更新」
+複製CSS：https://github.com/akira02/Zero-Memo/blob/master/plurk.css
 
-玻璃磨砂版可以使用CSS產生器 http://akira.eu.org/Zero-Memo/ 使用您的圖片生成 CSS 後複製至您的噗浪「自訂佈景風格」欄位。
+想要更換背景圖片可以使用模糊背景自動產生器：
+http://akira.eu.org/Zero-Memo/ 使用您的圖片生成 CSS 後複製至您的噗浪「自訂佈景風格」欄位。
 
 ## 使用例
 
 ### 一般玻璃磨砂版
-#### 一般模式
-![image](http://i.imgur.com/wRwssRX.png)
+#### 一般狀態
+![image](https://i.imgur.com/m5I1ogH.jpg)
 #### 展開資訊面板
-![image](http://i.imgur.com/s70PfL3.png)
+![image](https://i.imgur.com/FPREnny.jpg)
 #### 回應欄
-![image](http://i.imgur.com/yyhXesP.png)
-
-### Lite半透明版
-#### 一般模式
-![image](http://i.imgur.com/IehPIBx.png)
-#### 展開資訊面板
-![image](http://i.imgur.com/ZTBideZ.png)
+![image](https://i.imgur.com/t3Bgana.png)
 
 
 ## 替換背景
 如果您不想替換，那真是太棒了（？
 
 ### 自動替換
-http://maid.cat/Zero-Memo/
+http://akira.eu.org/Zero-Memo/
 ### 手動替換
 手動替換，您總共需要一張原背景圖（建議1920*1080以上），接著進行加亮模糊與加暗模糊，總共三張。
 
