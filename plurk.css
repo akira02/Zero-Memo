@@ -15,7 +15,7 @@ body {
     min-height: 0 !important;
     height: 100vh !important;
     box-shadow: 0 0 20px #000;
-    font-family: 'Arial','LiHei Pro', 'Heiti TC', 'Meiryo', '微軟正黑體', 'Microsoft JhengHei',  sans-serif !important;
+    font-family: 'Arial', 'Heiti TC', 'LiHei Pro', 'Meiryo', '微軟正黑體', 'Microsoft JhengHei',  sans-serif !important;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -126,7 +126,7 @@ body {
 .plurk_box .plurk_cnt {
     border-radius: 0 6px 0 0;
     border: 1px solid #fff;
-    border-bottom: 0 solid rgba(255, 255, 255, 0);
+    border-bottom:  hidden;
 }
 
 /* 發文者姓名 */
@@ -298,6 +298,8 @@ body {
     height: auto !important;
     width: 220px !important;
     position: fixed !important;
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
     top: 80px;
     right: -180px !important;
     background-color: #000000 !important;
@@ -390,8 +392,8 @@ body {
   text-align: right;
   font-family: nixie2;
   font-size: 1.15em;
-  width: 3.5em;
-  left: -5px;
+  width: 4em;
+  left: -10px;
   padding: 0.2em;
   padding-bottom: 0.1em;
   color: #ff9b28;
@@ -419,6 +421,8 @@ body {
             transition: margin-left .5s;
 }
 
+
+
 #dashboard_holder:hover #karma_holder {
     /* (原左移(30px) + 個人簡介欄左移(180px)) * -1 */
     margin-left: -210px;
@@ -428,12 +432,14 @@ body {
 
 #dash-additional-info {
     max-height: 0;
+    padding-right: 50px !important;
     -webkit-transition: max-height 0.5s;
             transition: max-height 0.5s;
 }
 
 #dashboard_holder:hover #dash-additional-info {
-    max-height: 400px;
+    max-height: 35vh;
+    overflow: scroll;
 }
 
 /* 各欄標題樣式 */
@@ -577,6 +583,18 @@ body {
 
 /* 動詞文字顏色 */
 
+.q_plays {
+    color: #fd7387;
+}
+
+.q_buys {
+    color: #ff9481;
+}
+
+.q_sells {
+    color: #ff5129;
+}
+
 .q_is {
     color: #e57c43;
 }
@@ -610,11 +628,11 @@ body {
 }
 
 .q_has {
-    color: #777;
+    color: #468281;
 }
 
 .q_loves {
-    color: #b20c0c;
+    color: #cc0100;
 }
 
 .q_hates {
@@ -638,7 +656,7 @@ body {
 }
 
 .q_likes {
-    color: #cb2728;
+    color: #f2192d;
 }
 
 .q_shares {
@@ -659,6 +677,18 @@ body {
 
 .q_replurks {
     color: #3b8610;
+}
+
+.q_draws {
+    color: #47b2b1;
+}
+
+.q_eats {
+    color: #ff8d06;
+}
+
+.q_writes {
+    color: #efab07;
 }
 
 /* 隱藏垃圾 */
