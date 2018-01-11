@@ -32,7 +32,7 @@ The high-resolution display friendly CSS. Using flat design.
 
 ### 方法一：使用噗浪安裝連結
 
-https://www.plurk.com/installDesign/7550387-cbbc8027d6
+https://www.plurk.com/installDesign/7550387-6c3b069900
 
 
 ### 方法二：自己貼CSS！
