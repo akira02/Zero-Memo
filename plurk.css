@@ -438,8 +438,8 @@ body {
 }
 
 #dashboard_holder:hover #dash-additional-info {
-    max-height: 35vh;
-    overflow: scroll;
+    max-height: 40vh;
+    overflow-y: scroll;
 }
 
 /* 各欄標題樣式 */
