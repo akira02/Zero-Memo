@@ -1,8 +1,12 @@
 # 零ノメモ Zero Memo: The Plurk custom CSS
 
-Work in progress
-
 The high-resolution display friendly CSS. Using flat design. 
+大螢幕友善的噗浪CSS，漂亮的扁平化設計
+
+CSS & 自動模糊產生器： http://akira.eu.org/Zero-Memo/
+
+製作：https://plurk.com/akira02
+追蹤噗浪以獲得CSS的更新！
 
 ## 介紹
 
@@ -19,6 +23,8 @@ The high-resolution display friendly CSS. Using flat design.
 
 6/5新增：因應噗幣擴展表符上限，可以爽爽用組合表情符號，加上了組合表符無縫功能
 
+2018/4/9：圖片展開介面也模糊了！
+
 ## 特色
 + 支援大螢幕（原生的河道那樣小）
 + 當然小螢幕也支援
@@ -30,18 +36,12 @@ The high-resolution display friendly CSS. Using flat design.
 
 ## 安裝
 
-### 方法一：使用噗浪安裝連結
+模糊背景自動產生器：
+http://akira.eu.org/Zero-Memo/ 
+使用您的圖片（可以上傳或貼網址）生成 CSS 後，
+將 CSS 文件內容複製，在噗浪頁面右上角點選自己的帳號，選「自訂佈景風格」，在該欄位中貼上此CSS，並按「儲存並更新」
 
-https://www.plurk.com/installDesign/7550387-6c3b069900
-
-
-### 方法二：自己貼CSS！
-
-將 CSS 文件內容複製至您的噗浪，右上角點選自己的帳號，選「自訂佈景風格」，在該欄位中貼上此CSS，並按「儲存並更新」
-複製CSS：https://github.com/akira02/Zero-Memo/blob/master/plurk.css
-
-想要更換背景圖片可以使用模糊背景自動產生器：
-http://akira.eu.org/Zero-Memo/ 使用您的圖片生成 CSS 後複製至您的噗浪「自訂佈景風格」欄位。
+不想自定圖的預設圖片CSS：https://github.com/akira02/Zero-Memo/blob/master/plurk.css
 
 ## 使用例
 
