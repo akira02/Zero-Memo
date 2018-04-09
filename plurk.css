@@ -1,7 +1,9 @@
-/* Design by 千秋 @akira02 */
-/* 總共需要一張背景圖片，一張模糊加亮圖片，一張模糊加暗圖片 */
+/* Design and Copyright by 千秋，請追蹤噗浪以獲得佈景主題的更新資訊：Plurk@akira02
+佈景主題官方網站： https://github.com/akira02/Zero-Memo */
+
 
 /* 根元素 */
+
 {
     /* △未模糊背景圖片 */
     /*# BACKGROUND timeline #*/
@@ -15,12 +17,13 @@ body {
     min-height: 0 !important;
     height: 100vh !important;
     box-shadow: 0 0 20px #000;
-    font-family: 'Arial', 'Heiti TC', 'LiHei Pro', 'Meiryo', '微軟正黑體', 'Microsoft JhengHei',  sans-serif !important;
+    font-family: 'Arial', 'Heiti TC', 'LiHei Pro', 'Meiryo', '微軟正黑體', 'Microsoft JhengHei', sans-serif !important;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -moz-font-feature-settings: 'liga' on;
 }
+
 
 /* 河道 */
 
@@ -28,9 +31,10 @@ body {
     position: relative;
     width: 100%;
     height: 100% !important;
-    background-color: rgba(0,0,0,0) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
     overflow-y: visible !important;
 }
+
 
 /* 噗文能出現的範圍 */
 
@@ -40,9 +44,11 @@ body {
     overflow-y: visible !important;
 }
 
+
 /* 避免噗文展開後被切掉 */
 
-#timeline_cnt, .block_cnt {
+#timeline_cnt,
+.block_cnt {
     overflow-y: visible !important;
 }
 
@@ -53,6 +59,7 @@ body {
     bottom: 0;
 }
 
+
 /* 時間標籤置頂 */
 
 .bottom_start {
@@ -62,8 +69,9 @@ body {
     color: #fff !important;
     background-color: #000;
     height: 18px;
-    opacity:0.5;
+    opacity: 0.5;
 }
+
 
 /* 浮動發噗時間 */
 
@@ -84,6 +92,7 @@ body {
     font-weight: bold;
 }
 
+
 /* 去除連結背景, 左側線條 */
 
 .plurk .meta {
@@ -91,12 +100,14 @@ body {
     background: none !important;
 }
 
+
 /* 噗文 */
 
 .plurk_cnt {
     /*# BACKGROUND plurk #*/
     border-radius: 3px;
-    background-color: #fff !important; /* fallback */
+    background-color: #fff !important;
+    /* fallback */
     /* ☆白色模糊背景圖片 */
     background-image: url(http://i.imgur.com/61wVhKc.jpg) !important;
     background-position: center !important;
@@ -108,7 +119,7 @@ body {
     font-size: 1.2em;
     line-height: 1.4;
     -webkit-transition: border .5s;
-            transition: border .5s;
+    transition: border .5s;
 }
 
 .plurk_cnt .text_holder {
@@ -121,13 +132,15 @@ body {
     border: 1px solid rgba(200, 50, 0, 0.7);
 }
 
+
 /* 選中的噗文 */
 
 .plurk_box .plurk_cnt {
     border-radius: 0 6px 0 0;
     border: 1px solid #fff;
-    border-bottom:  hidden;
+    border-bottom: hidden;
 }
+
 
 /* 發文者姓名 */
 
@@ -136,6 +149,7 @@ body {
     text-shadow: 0 0 8px #fff, 0 0 7px #fff !important;
     z-index: 855;
 }
+
 
 /* 發文者頭像 */
 
@@ -153,6 +167,7 @@ body {
     border-radius: 5px;
 }
 
+
 /* 回應計數 */
 
 .response_count {
@@ -165,6 +180,7 @@ body {
     font-size: 2em;
 }
 
+
 /* 回應計數(未讀) */
 
 .new .response_count {
@@ -172,13 +188,15 @@ body {
     text-shadow: 0 0 5px #e88d43;
 }
 
+
 /* 回應欄 */
 
 #form_holder {
     /*# BACKGROUND plurk #*/
     border: 1px solid #fff;
     border-top: 0;
-    background-color: #fff !important; /* fallback */
+    background-color: #fff !important;
+    /* fallback */
     /* ☆白色模糊背景圖片 */
     background-image: url(http://i.imgur.com/61wVhKc.jpg) !important;
     background-position: center !important;
@@ -186,12 +204,97 @@ body {
     background-attachment: fixed !important;
 }
 
+
 /* 去除回應欄內元素的背景, 框線 */
 
-.list .plurk_cnt, .response_box, .mini_form, .info_box, .login_to_see {
+.list .plurk_cnt,
+.response_box,
+.mini_form,
+.info_box,
+.login_to_see {
     background: none !important;
     border: none !important;
 }
+
+
+/* 圖片檢視框背景模糊化 */
+
+' {}
+:not(*)
+/* { */
+
+,
+
+/*
+}*/
+
+.cbox_right {
+    /*# BACKGROUND plurk #*/
+    /* ☆白色模糊背景圖片 */
+    background-image: url(http://i.imgur.com/61wVhKc.jpg) !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+' {}
+ ' {}
+:not(*)
+/* { */
+
+,
+
+/*
+}*/
+
+.response_box {
+    /*# BACKGROUND plurk #*/
+    /* ☆白色模糊背景圖片 */
+    background-image: url(http://i.imgur.com/61wVhKc.jpg) !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+' {}
+ ' {}
+:not(*)
+/* { */
+
+,
+
+/*
+}*/
+
+.mini_form {
+    /*# BACKGROUND plurk #*/
+    /* ☆白色模糊背景圖片 */
+    background-image: url(http://i.imgur.com/61wVhKc.jpg) !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+' {}
+ ' {}
+:not(*)
+/* { */
+
+,
+
+/*
+}*/
+
+.img-holder {
+    /*# BACKGROUND dashboard #*/
+    /* ★黑色模糊背景圖片 */
+    background-image: url(http://i.imgur.com/xAYxWg4.jpg) !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+' {}
 
 /* 個人資訊面板 */
 
@@ -214,7 +317,7 @@ body {
     background-size: cover !important;
     background-attachment: fixed !important;
     -webkit-transition: left .5s;
-            transition: left .5s;
+    transition: left .5s;
 }
 
 #dashboard_holder:hover {
@@ -226,7 +329,9 @@ body {
     border: none !important;
 }
 
+
 /* 使各面板垂直排列 */
+
 .dash-group-left,
 .dash-group-right,
 .dash-segment {
@@ -238,6 +343,7 @@ body {
     background: none !important;
     border-radius: 0 !important;
 }
+
 
 /* 發文面板 */
 
@@ -264,9 +370,14 @@ body {
     color: #fff !important;
 }
 
+
 /* 各欄樣式 */
 
-#dash-additional-info, #dash-stats, #dash-friends, #dash-fans, #dash-award {
+#dash-additional-info,
+#dash-stats,
+#dash-friends,
+#dash-fans,
+#dash-award {
     width: 290px !important;
     position: relative;
     padding: 5px;
@@ -291,6 +402,7 @@ body {
     color: red !important;
 }
 
+
 /* 個人簡介欄外框 */
 
 .dash-segment-profile :first-child.segment-content {
@@ -311,12 +423,13 @@ body {
     background-attachment: fixed !important;
     color: LightGray;
     -webkit-transition: right .5s !important;
-            transition: right .5s !important;
+    transition: right .5s !important;
 }
 
 #dashboard_holder:hover .dash-segment-profile :first-child.segment-content {
     right: 0 !important;
 }
+
 
 /* 個人簡介欄 */
 
@@ -326,13 +439,14 @@ body {
     padding: 5px !important;
 }
 
+
 /* 大頭貼 */
 
 #profile_pic {
     height: auto !important;
     width: auto !important;
     -webkit-transform: rotate(5deg);
-            transform: rotate(5deg);
+    transform: rotate(5deg);
     border-radius: 10px;
     position: relative !important;
 }
@@ -341,7 +455,8 @@ body {
     position: initial !important;
 }
 
-#full_name, .profile-info {
+#full_name,
+.profile-info {
     line-height: 1.4em;
     text-align: right;
     margin: 0 !important;
@@ -349,21 +464,21 @@ body {
 
 #full_name {
     font-size: 17px;
-    display : -webkit-box;
-    display : -webkit-flex;
-    display : -ms-flexbox;
-    display : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-flex-flow: row wrap;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
     -webkit-box-pack: end;
-    -webkit-justify-content : flex-end;
+    -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
-            justify-content : flex-end;
+    justify-content: flex-end;
     -webkit-box-align: baseline;
     -webkit-align-items: baseline;
     -ms-flex-align: baseline;
-            align-items: baseline;
+    align-items: baseline;
 }
 
 .display_name {
@@ -378,35 +493,35 @@ body {
     font-style: italic;
 }
 
+
 /* Karma值 */
 
 @font-face {
-  font-family: nixie2;
-  src: url('https://akira.eu.org/assets/AkiNixieNumber-Regular.woff2') format('woff2'),
-  url('https://akira.eu.org/assets/AkiNixieNumber-Regular.woff') format('woff');
+    font-family: nixie2;
+    src: url('https://akira.eu.org/assets/AkiNixieNumber-Regular.woff2') format('woff2'), url('https://akira.eu.org/assets/AkiNixieNumber-Regular.woff') format('woff');
 }
 
 #karma {
-  position: relative;
-  display: inline-block;
-  text-align: right;
-  font-family: nixie2;
-  font-size: 1.15em;
-  width: 4em;
-  left: -10px;
-  padding: 0.2em;
-  padding-bottom: 0.1em;
-  color: #ff9b28;
-  text-shadow: 0px 0px 6px rgba(255,65,0,0.7),0px 0px 20px #ff8000,0px 0px 10px rgb(118,18,3) !important;
+    position: relative;
+    display: inline-block;
+    text-align: right;
+    font-family: nixie2;
+    font-size: 1.15em;
+    width: 4em;
+    left: -10px;
+    padding: 0.2em;
+    padding-bottom: 0.1em;
+    color: #ff9b28;
+    text-shadow: 0px 0px 6px rgba(255, 65, 0, 0.7), 0px 0px 20px #ff8000, 0px 0px 10px rgb(118, 18, 3) !important;
 }
 
 #karma::before {
-  position: absolute;
-  top: 0.2em;
-  left: 0.2em;
-  opacity: 0.4;
-  color: #de8159;
-  content: '$$$$$$';
+    position: absolute;
+    top: 0.2em;
+    left: 0.2em;
+    opacity: 0.4;
+    color: #de8159;
+    content: '$$$$$$';
 }
 
 #karma_holder {
@@ -418,15 +533,14 @@ body {
     left: 100vw !important;
     margin-left: -30px;
     -webkit-transition: margin-left .5s;
-            transition: margin-left .5s;
+    transition: margin-left .5s;
 }
-
-
 
 #dashboard_holder:hover #karma_holder {
     /* (原左移(30px) + 個人簡介欄左移(180px)) * -1 */
     margin-left: -210px;
 }
+
 
 /* 自我介紹欄 */
 
@@ -434,7 +548,7 @@ body {
     max-height: 0;
     padding-right: 50px !important;
     -webkit-transition: max-height 0.5s;
-            transition: max-height 0.5s;
+    transition: max-height 0.5s;
 }
 
 #dashboard_holder:hover #dash-additional-info {
@@ -442,26 +556,28 @@ body {
     overflow-y: scroll;
 }
 
+
 /* 各欄標題樣式 */
 
 .segment-content h2 {
-    display : -webkit-box !important;
-    display : -webkit-flex !important;
-    display : -ms-flexbox !important;
-    display : flex !important;
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
     -webkit-flex-flow: row nowrap;
-        -ms-flex-flow: row nowrap;
-            flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     /* 第1: 文字 */
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
     -ms-flex-order: 1;
-            order: 1;
+    order: 1;
 }
+
 
 /* 第2: 分隔線 */
 
@@ -469,16 +585,17 @@ body {
     -webkit-box-ordinal-group: 3;
     -webkit-order: 2;
     -ms-flex-order: 2;
-            order: 2;
+    order: 2;
     -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
-            flex-grow: 1;
+    flex-grow: 1;
     height: 2px;
     margin: 5px;
-    content : '';
+    content: '';
     background-color: LightGray;
 }
+
 
 /* 第3: icon */
 
@@ -486,12 +603,14 @@ body {
     -webkit-box-ordinal-group: 4;
     -webkit-order: 3;
     -ms-flex-order: 3;
-            order: 3;
+    order: 3;
 }
+
 
 /* 圖示樣式 */
 
-#dash-additional-info::before, .segment-content h2::after {
+#dash-additional-info::before,
+.segment-content h2::after {
     width: 1.5em !important;
     color: LightGray;
     font-size: 1.5em !important;
@@ -500,53 +619,67 @@ body {
     font-weight: 100 !important;
 }
 
+
 /* 圖示代碼 */
 
 #dash-additional-info::before {
-    content : ''; /* terminal */
+    content: '';
+    /* terminal */
 }
 
 #dash-stats h2::after {
-    content : ''; /* line-chart */
+    content: '';
+    /* line-chart */
 }
 
 #dash-friends h2::after {
-    content : ''; /* child */
+    content: '';
+    /* child */
 }
 
 #dash-fans h2::after {
-    content : ''; /* star-o */
+    content: '';
+    /* star-o */
 }
+
 
 /* (統計欄, 朋友欄, 粉絲欄)除標題外的內容 */
 
-.dash-stats-karma, #dash-stats-table, #friend_managment, #dash-friends-pics,
-#fan_managment, #dash-fans-pics {
+.dash-stats-karma,
+#dash-stats-table,
+#friend_managment,
+#dash-friends-pics,
+#fan_managment,
+#dash-fans-pics {
     max-height: 0;
     height: auto !important;
     margin: 0 !important;
     /* 使overflow-y: hidden對table生效 */
-    display : inline-block;
+    display: inline-block;
     clear: both;
     overflow-x: visible;
     overflow-y: hidden;
     -webkit-transition: max-height .5s;
-            transition: max-height .5s;
+    transition: max-height .5s;
 }
 
 :hover.segment-content .dash-stats-karma,
 :hover.segment-content #dash-stats-table,
 :hover.segment-content #friend_managment,
-:hover.segment-content #dash-friends-pics, :hover.segment-content #fan_managment,
+:hover.segment-content #dash-friends-pics,
+ :hover.segment-content #fan_managment,
 :hover.segment-content #dash-fans-pics {
-    max-height: 200px; /* 大於以上任一元素原高度的數字 */
+    max-height: 200px;
+    /* 大於以上任一元素原高度的數字 */
 }
+
 
 /* 防止Karma趨勢圖出現 */
 
 .karma_hover {
     pointer-events: none;
 }
+
 
 /* 狀態數值 */
 
@@ -555,16 +688,18 @@ body {
     font-weight: 700;
 }
 
+
 /* 加入好友按鈕, 追蹤按鈕 */
 
 .friend_man {
-    display : block;
+    display: block;
     white-space: nowrap;
     background: none !important;
     border: none !important;
     color: LightGray !important;
     font-size: 1.5em !important;
 }
+
 
 /* 動詞選擇器 */
 
@@ -573,13 +708,16 @@ body {
     font-weight: 700;
 }
 
+
 /* 動詞選項 */
 
-.qualifier, .m_qualifier {
+.qualifier,
+.m_qualifier {
     border: 0 !important;
     background: 0 !important;
     color: #888;
 }
+
 
 /* 動詞文字顏色 */
 
@@ -691,16 +829,33 @@ body {
     color: #efab07;
 }
 
+
 /* 隱藏垃圾 */
 
-.adsense, /* 底部廣告 */
-#resp_banner_ads, /* 回覆底部廣告 */
+.adsense,
+
+/* 底部廣告 */
+
+#resp_banner_ads,
+
+/* 回覆底部廣告 */
+
 .browse_button,
+
 /* 左右箭頭 */
-#dynamic_logo, /* 背景logo */
-#bottom_line, /* 時間軸線 */
+
+#dynamic_logo,
+
+/* 背景logo */
+
+#bottom_line,
+
+/* 時間軸線 */
+
 .link_arrow,
+
 /* 教學連結 */
+
 footer {
     min-height: 0 !important;
     min-width: 0 !important;
@@ -711,6 +866,7 @@ footer {
     border: none !important;
     overflow: hidden !important;
 }
+
 
 /* 避免底部bar擋到東西 */
 
@@ -731,7 +887,12 @@ footer {
 .response_time .holder {
     background: none !important;
 }
+
+
 /* 組合表情符號無縫 */
-.emoticon_my + .emoticon_my,
-.emoticon_my_wrapper + .emoticon_my,
-.emoticon_my + .emoticon_my_wrapper { margin-left: -4px; }
+
+.emoticon_my+.emoticon_my,
+.emoticon_my_wrapper+.emoticon_my,
+.emoticon_my+.emoticon_my_wrapper {
+    margin-left: -4px;
+}
