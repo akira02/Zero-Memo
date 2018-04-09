@@ -3,6 +3,9 @@
 The high-resolution display friendly CSS. Using flat design. 
 大螢幕友善的噗浪CSS，漂亮的扁平化設計
 
+![image](https://user-images.githubusercontent.com/4176802/38499717-0a71da0c-3c3b-11e8-8a05-d11b2bb179d4.png)
+
+
 CSS & 自動模糊產生器： http://akira.eu.org/Zero-Memo/
 
 製作：https://plurk.com/akira02
@@ -26,11 +29,11 @@ CSS & 自動模糊產生器： http://akira.eu.org/Zero-Memo/
 2018/4/9：圖片展開介面也模糊了！
 
 ## 特色
-+ 支援大螢幕（原生的河道那樣小）
-+ 當然小螢幕也支援
-+ 扁平化設計！（不
++ 支援各種螢幕（原生的河道在大螢幕上看很彆扭）
++ 扁平化設計！
 + 玻璃磨砂效果！
 + 動畫！（煞氣滑動dashboard！）
++ 數字管卡馬值！（El psy congroo）
 + 看起來很舒服
 + 軟萌感！
 
@@ -47,12 +50,15 @@ http://akira.eu.org/Zero-Memo/
 
 ### 一般玻璃磨砂版
 #### 一般狀態
-![image](https://i.imgur.com/m5I1ogH.jpg)
+![image](https://user-images.githubusercontent.com/4176802/38499709-0604d172-3c3b-11e8-876f-0c0b00e2609f.png)
 #### 展開資訊面板
-![image](https://i.imgur.com/FPREnny.jpg)
+![image](https://user-images.githubusercontent.com/4176802/38499717-0a71da0c-3c3b-11e8-8a05-d11b2bb179d4.png)
 #### 回應欄
-![image](https://i.imgur.com/t3Bgana.png)
-
+![image](https://user-images.githubusercontent.com/4176802/38499743-204a05f2-3c3b-11e8-9318-9bfc897bfa84.png)
+#### 圖片檢視
+![image](https://user-images.githubusercontent.com/4176802/38499769-2cd49602-3c3b-11e8-8e24-8601674b776b.png)
+#### 數字管卡馬值
+![image](https://user-images.githubusercontent.com/4176802/38500124-11b5fe3c-3c3c-11e8-958e-866fc9043756.png)
 
 ## 替換背景
 如果您不想替換，那真是太棒了（？
