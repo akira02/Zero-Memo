@@ -508,6 +508,7 @@ body {
     text-align: right;
     font-family: nixie2;
     font-size: 1.15em;
+    font-weight: normal;
     width: 4em;
     left: -10px;
     padding: 0.2em;
