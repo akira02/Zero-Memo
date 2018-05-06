@@ -17,8 +17,9 @@ body {
     min-height: 0 !important;
     height: 100vh !important;
     box-shadow: 0 0 20px #000;
-    font-family: 'Arial', 'Heiti TC', 'LiHei Pro', 'Meiryo', '微軟正黑體', 'Microsoft JhengHei', sans-serif !important;
+    font-family: Ubuntu, 'Avenir Next', 'Arial',  'XinGothic-TC', 'PingFang TC', 'Heiti TC', 'LiHei Pro', 'Source Han Sans TC', 'Hiragino Sans' , 'Meiryo', 'Century Gothic', 'Microsoft Jhenghei','微軟正黑體',  sans-serif !important;
     text-rendering: optimizeLegibility;
+    font-weight: 800;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -moz-font-feature-settings: 'liga' on;
