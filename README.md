@@ -55,6 +55,8 @@ http://akira.eu.org/Zero-Memo/
 ![image](https://user-images.githubusercontent.com/4176802/38499717-0a71da0c-3c3b-11e8-8a05-d11b2bb179d4.png)
 #### 回應欄
 ![image](https://user-images.githubusercontent.com/4176802/38499743-204a05f2-3c3b-11e8-9318-9bfc897bfa84.png)
+![2018-05-09 11 07 19](https://user-images.githubusercontent.com/4176802/39822767-f7978bec-53dd-11e8-88af-5a200d3d23bd.png)
+
 #### 圖片檢視
 ![image](https://user-images.githubusercontent.com/4176802/38499769-2cd49602-3c3b-11e8-8e24-8601674b776b.png)
 #### 數字管卡馬值
