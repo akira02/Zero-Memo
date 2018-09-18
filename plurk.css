@@ -266,6 +266,14 @@ display: none;
     transition: left .5s;
 }
 
+.display_name{
+   width: 100%;
+   text-align: left;
+}
+.profile-icons{
+   top: 200px;
+}
+
 #dashboard_holder:hover {
     left: 0;
 }
