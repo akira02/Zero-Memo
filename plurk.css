@@ -559,7 +559,7 @@ display: none;
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
-    height: 2px;
+    height: 1px;
     margin: 5px;
     content: '';
     background-color: LightGray;
