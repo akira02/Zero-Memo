@@ -56,7 +56,7 @@ display: none;
     width: 100%;
     height: 100% !important;
     background-color: rgba(0, 0, 0, 0) !important;
-    overflow-y: visible !important;
+    overflow: hidden !important;
 }
 
 
