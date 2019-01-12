@@ -414,6 +414,8 @@ display: none;
     line-height: 1.4em;
     text-align: right;
     margin: 0 !important;
+    left: 116px;
+    position: relative !important;
 }
 
 #full_name {
@@ -433,6 +435,11 @@ display: none;
     -webkit-align-items: baseline;
     -ms-flex-align: baseline;
     align-items: baseline;
+}
+
+.nick_name {
+    font-size: 58%;
+    width: 80px;
 }
 
 .display_name {
@@ -490,6 +497,13 @@ display: none;
     -webkit-transition: margin-left .5s;
     transition: margin-left .5s;
 }
+
+/*隱藏卡馬英文*/
+.karma_hover {
+   margin: 0;
+   height: 0;
+}
+
 
 #dashboard_holder:hover #karma_holder {
     /* (原左移(30px) + 個人簡介欄左移(180px)) * -1 */
@@ -627,14 +641,6 @@ display: none;
     max-height: 200px;
     /* 大於以上任一元素原高度的數字 */
 }
-
-
-/* 防止Karma趨勢圖出現 */
-
-.karma_hover {
-    pointer-events: none;
-}
-
 
 /* 狀態數值 */
 
