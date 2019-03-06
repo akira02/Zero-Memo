@@ -1,5 +1,6 @@
 # 零ノメモ Zero Memo: The Plurk custom CSS
 
+スクリーンのフレンドリーなCSP、きれいなデザイン！
 The high-resolution display friendly CSS. Using flat design. 
 大螢幕友善的噗浪CSS，漂亮的扁平化設計
 
