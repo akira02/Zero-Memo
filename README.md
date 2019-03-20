@@ -7,10 +7,12 @@ The high-resolution display friendly CSS. Using flat design.
 ![image](https://user-images.githubusercontent.com/4176802/38499717-0a71da0c-3c3b-11e8-8a05-d11b2bb179d4.png)
 
 
-CSS & 自動模糊產生器： http://akira.eu.org/Zero-Memo/
+## CSS 產生器請點 http://akira.eu.org/Zero-Memo/
 
-製作：https://plurk.com/akira02
-追蹤噗浪以獲得CSS的更新！
+製作 by https://plurk.com/akira02
+
+請追蹤我的噗浪以獲得CSS的更新資訊>///<
+也可以跟我回報問題QQ
 
 ## 介紹
 
