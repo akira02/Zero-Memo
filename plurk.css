@@ -165,6 +165,10 @@ display: none;
     border-bottom: hidden;
 }
 
+.poster_holder {
+    z-index: 1001;
+}
+
 
 /* 發文者姓名 */
 
@@ -836,6 +840,7 @@ footer {
     left: 20px;
     width: 0 !important;
     height: 0 !important;
+    z-index: 1000;
 }
 
 .response_time {
