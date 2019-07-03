@@ -27,26 +27,26 @@ body {
 
 /* 取代載入回噗的彈跳P */
 .loading > img {
-background: url(https://akira.eu.org/Zero-Memo/img/cat-loading-s.gif) no-repeat;
-background-size: 90px;
-width: 90px;
-height: 90px;
-padding-left: 90px;
-margin-top: 17px;
+    background: url(https://chiaki.uk/Zero-Memo/img/cat-loading-s.gif) no-repeat;
+    background-size: 90px;
+    width: 90px;
+    height: 90px;
+    padding-left: 90px;
+    margin-top: 17px;
 }
 
 /* 取代載入河道彈跳肉骨獸 */
-.loading-div {
-background: url(https://akira.eu.org/Zero-Memo/img/cat-loading-s.gif) no-repeat;
-background-size: 120px;
-width: 120px;
-height: 120px;
-left: 50%;
+    .loading-div {
+    background: url(https://chiaki.uk/Zero-Memo/img/cat-loading-s.gif) no-repeat;
+    background-size: 120px;
+    width: 120px;
+    height: 120px;
+    left: 50%;
 }
 
 /* 隱藏載入河道的彈跳肉骨獸 */
 .loading-div > .cnt {
-display: none;
+    display: none;
 }
 
 /* 河道 */
@@ -462,7 +462,7 @@ display: none;
 
 @font-face {
     font-family: nixie2;
-    src: url('https://akira.eu.org/assets/AkiNixieNumber-Regular.woff2') format('woff2'), url('https://akira.eu.org/assets/AkiNixieNumber-Regular.woff') format('woff');
+    src: url('https://chiaki.uk/assets/AkiNixieNumber-Regular.woff2') format('woff2'), url('https://chiaki.uk/assets/AkiNixieNumber-Regular.woff') format('woff');
 }
 
 #karma {
