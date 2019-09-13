@@ -6,30 +6,13 @@ The high-resolution display friendly CSS. Using flat design.
 
 ![image](https://user-images.githubusercontent.com/4176802/38499717-0a71da0c-3c3b-11e8-8a05-d11b2bb179d4.png)
 
-
-## CSS 產生器請點 http://akira.eu.org/Zero-Memo/
-
-製作 by https://plurk.com/akira02
-
-請追蹤我的噗浪以獲得CSS的更新資訊>///<
+可以追蹤我的噗浪以獲得CSS的更新資訊>///<
 也可以跟我回報問題QQ
 
-## 介紹
+## 背景圖片 CSS 產生器： http://akira.eu.org/Zero-Memo/
+## 取用CSS：https://github.com/akira02/Zero-Memo/blob/master/plurk.css
 
-我之前是在寫 CSS 的，而我寫 CSS 的原則是：「X你娘操爆」
-
-沒錯，就是X你娘操爆，老子才不管甚麼記憶體資源三小的，每次載的圖片就是XX一大張。有文字陰影就加三層，高解析度圖片載三張，超多過場動畫，跟把整台電腦的記憶體跟運算資源全吃掉沒兩樣。
-
-我還記得，我一開始 CSS 寫 900 多行，朋友跑來跟我說，你的河道我都滑不動，你有頭緒嗎？
- 
-我他X的怎麼會知道。
-
-2/18新增：Lite版本 只使用半透明沒有玻璃磨砂效果
-可是我怎麼覺得沒差多少QwQ
-
-6/5新增：因應噗幣擴展表符上限，可以爽爽用組合表情符號，加上了組合表符無縫功能
-
-2018/4/9：圖片展開介面也模糊了！
+製作 by https://plurk.com/akira02
 
 ## 特色
 + 支援各種螢幕（原生的河道在大螢幕上看很彆扭）
