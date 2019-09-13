@@ -1,8 +1,8 @@
 /*數字管字體*/
 @font-face {
   font-family: nixie2;
-  src: url('https://akira.eu.org/assets/AkiNixieNumber-Regular.woff2') format('woff2'),
-  url('https://akira.eu.org/assets/AkiNixieNumber-Regular.woff') format('woff');
+  src: url('https://chiaki.uk/assets/AkiNixieNumber-Regular.woff2') format('woff2'),
+  url('https://chiaki.uk/assets/AkiNixieNumber-Regular.woff') format('woff');
 }
 
 /*數字管本體*/
