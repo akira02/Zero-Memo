@@ -525,7 +525,6 @@ body {
 
 #dashboard_holder:hover #dash-additional-info {
     max-height: 50vh;
-    overflow-y: scroll;
 }
 
 
