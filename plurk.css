@@ -4,16 +4,13 @@
 
 /* 根元素 */
 
-{
+body {
     /* △未模糊背景圖片 */
     /*# BACKGROUND timeline #*/
     background-image: url(http://i.imgur.com/Jyo0BVk.jpg) !important;
     background-position: center !important;
     background-size: cover !important;
     background-attachment: fixed !important;
-}
-
-body {
     min-height: 0 !important;
     height: 100vh !important;
     box-shadow: 0 0 20px #000;
