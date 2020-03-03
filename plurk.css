@@ -349,12 +349,12 @@ body {
 }
 
 .segment-content a {
-    color: #C00 !important;
+    color: #ffb17b !important;
     text-decoration: none !important;
 }
 
 .segment-content a:hover {
-    color: red !important;
+    color: #f5873b !important;
 }
 
 
