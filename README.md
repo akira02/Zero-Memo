@@ -45,6 +45,9 @@ http://akira.eu.org/Zero-Memo/
 
 #### 圖片檢視
 ![image](https://user-images.githubusercontent.com/4176802/38499769-2cd49602-3c3b-11e8-8e24-8601674b776b.png)
+※因為噗浪修改了架構，如果要讓圖片檢視也模糊的話需要手動外加一段語法：https://paste.plurk.com/show/pxjJo4hhDeemy0GFSOnA/
+先把這整段貼在產生好的整段CSS前面，在產生出來的語法裡面，找到有標示白色模糊背景圖片的url複製過來，取代這段語法裡面的白色模糊背景，黑色模糊背景的url也複製過來，一樣取代這裡面標示黑色模糊背景的部分。
+
 #### 數字管卡馬值
 ![image](https://user-images.githubusercontent.com/4176802/38500124-11b5fe3c-3c3c-11e8-958e-866fc9043756.png)
 
