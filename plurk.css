@@ -1,13 +1,22 @@
 /* Design and Copyright by 千秋，請追蹤噗浪以獲得佈景主題的更新資訊：Plurk@akira02
 佈景主題官方網站： https://github.com/akira02/Zero-Memo */
 
+/* ==== BEGIN CONFIGURATION ==== */
+body {
+    /* △未模糊背景圖片 */
+    --background-image-timeline: url(http://i.imgur.com/Jyo0BVk.jpg);
+    /* ☆白色模糊背景圖片 */
+    --background-image-plurk: url(http://i.imgur.com/61wVhKc.jpg);
+    /* ★黑色模糊背景圖片 */
+    --background-image-dashboard: url(http://i.imgur.com/xAYxWg4.jpg);
+}
+/* ==== END CONFIGURATION ==== */
+
 
 /* 根元素 */
 
 body {
-    /* △未模糊背景圖片 */
-    /*# BACKGROUND timeline #*/
-    background-image: url(http://i.imgur.com/Jyo0BVk.jpg) !important;
+    background-image: var(--background-image-timeline) !important;
     background-position: center !important;
     background-size: cover !important;
     background-attachment: fixed !important;
@@ -125,12 +134,9 @@ body {
 /* 噗文 */
 
 .plurk_cnt {
-    /*# BACKGROUND plurk #*/
     border-radius: 3px;
     background-color: #fff !important;
-    /* fallback */
-    /* ☆白色模糊背景圖片 */
-    background-image: url(http://i.imgur.com/61wVhKc.jpg) !important;
+    background-image: var(--background-image-plurk) !important;
     background-position: center !important;
     background-size: cover !important;
     background-attachment: fixed !important;
@@ -217,13 +223,10 @@ body {
 /* 回應欄 */
 
 #form_holder {
-    /*# BACKGROUND plurk #*/
     border: 1px solid #fff;
     border-top: 0;
     background-color: #fff !important;
-    /* fallback */
-    /* ☆白色模糊背景圖片 */
-    background-image: url(http://i.imgur.com/61wVhKc.jpg) !important;
+    background-image: var(--background-image-plurk) !important;
     background-position: center !important;
     background-size: cover !important;
     background-attachment: fixed !important;
@@ -246,7 +249,6 @@ body {
 /* 個人資訊面板 */
 
 #dashboard_holder {
-    /*# BACKGROUND dashboard #*/
     min-width: 0;
     min-height: 0;
     width: auto;
@@ -258,8 +260,7 @@ body {
     z-index: 910;
     background-color: rgba(0, 0, 0, 0.8) !important;
     background-color: #000000 !important;
-    /* ★黑色模糊背景圖片 */
-    background-image: url(http://i.imgur.com/xAYxWg4.jpg) !important;
+    background-image: var(--background-image-dashboard) !important;
     background-position: center !important;
     background-size: cover !important;
     background-attachment: fixed !important;
@@ -361,7 +362,6 @@ body {
 /* 個人簡介欄外框 */
 
 .dash-segment-profile :first-child.segment-content {
-    /*# BACKGROUND dashboard #*/
     height: auto !important;
     width: 220px !important;
     position: fixed !important;
@@ -371,8 +371,7 @@ body {
     right: -180px !important;
     background-color: #000000 !important;
     background-color: rgba(0, 0, 0, 0.8) !important;
-    /* ★黑色模糊背景圖片 
-    background-image: url(http://i.imgur.com/xAYxWg4.jpg) !important; */
+    /* background-image: var(--background-image-dashboard) !important; */
     background-position: center !important;
     background-size: cover !important;
     background-attachment: fixed !important;
