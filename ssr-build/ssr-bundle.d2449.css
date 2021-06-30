@@ -257,8 +257,8 @@ th {
 }
 @font-face {
   font-family: "Glyphicons Halflings";
-  src: url(/5be1347c682810f199c7f486f40c5974.eot);
-  src: url(/5be1347c682810f199c7f486f40c5974.eot?#iefix) format("embedded-opentype"), url(/be810be3a3e14c682a257d6eff341fe4.woff2) format("woff2"), url(/82b1212e45a2bc35dd731913b27ad813.woff) format("woff"), url(/4692b9ec53fd5972caa2f2372ae20d16.ttf) format("truetype"), url(/060b2710bdbbe3dfe48b58d59bd5f1fb.svg#glyphicons_halflingsregular) format("svg");
+  src: url(./5be1347c682810f199c7f486f40c5974.eot);
+  src: url(./5be1347c682810f199c7f486f40c5974.eot?#iefix) format("embedded-opentype"), url(./be810be3a3e14c682a257d6eff341fe4.woff2) format("woff2"), url(./82b1212e45a2bc35dd731913b27ad813.woff) format("woff"), url(./4692b9ec53fd5972caa2f2372ae20d16.ttf) format("truetype"), url(./060b2710bdbbe3dfe48b58d59bd5f1fb.svg#glyphicons_halflingsregular) format("svg");
 }
 .glyphicon {
   position: relative;
@@ -6796,4 +6796,4 @@ body {
 }
 
 
-/*# sourceMappingURL=ssr-bundle.23a8b.css.map*/
+/*# sourceMappingURL=ssr-bundle.d2449.css.map*/
