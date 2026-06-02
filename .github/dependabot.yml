@@ -1,0 +1,8 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/generate"
+    schedule:
+      interval: "daily"
+    # Disable version update pull requests
+    open-pull-requests-limit: 0
