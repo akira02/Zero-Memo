@@ -29,7 +29,9 @@
     "tar": "^6.2.1",
     "nth-check": "^2.0.1",
     "browserify-sign": "^4.2.2",
-    "loader-utils": "^2.0.4"
+    "loader-utils": "^2.0.4",
+    "elliptic": "^6.6.1",
+    "serialize-javascript": "^6.0.2"
   },
   "scripts": {
     "build": "preact build --no-sw",
