@@ -12,7 +12,7 @@ The high-resolution display friendly CSS. Using flat design.
 ## 背景圖片 CSS 產生器： http://akira.eu.org/Zero-Memo/
 ## 取用CSS：https://github.com/chiakich/Zero-Memo/blob/master/plurk.css
 
-製作 by https://plurk.com/akira02
+製作 by https://plurk.com/chiakich
 
 ## 特色
 + 支援各種螢幕（原生的河道在大螢幕上看很彆扭）
