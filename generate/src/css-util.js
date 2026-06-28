@@ -1,5 +1,5 @@
 const CSS_URL =
-  "https://raw.githubusercontent.com/akira02/Zero-Memo/master/plurk.css";
+  "https://raw.githubusercontent.com/chiakich/Zero-Memo/master/plurk.css";
 
 export async function fetchCss() {
   return fetch(CSS_URL).then((res) => res.text());

@@ -10,7 +10,7 @@ The high-resolution display friendly CSS. Using flat design.
 也可以跟我回報問題QQ
 
 ## 背景圖片 CSS 產生器： http://akira.eu.org/Zero-Memo/
-## 取用CSS：https://github.com/akira02/Zero-Memo/blob/master/plurk.css
+## 取用CSS：https://github.com/chiakich/Zero-Memo/blob/master/plurk.css
 
 製作 by https://plurk.com/akira02
 
@@ -30,7 +30,7 @@ http://akira.eu.org/Zero-Memo/
 使用您的圖片（可以上傳或貼網址）生成 CSS 後，
 將 CSS 文件內容複製，在噗浪頁面右上角點選自己的帳號，選「自訂佈景風格」，在該欄位中貼上此CSS，並按「儲存並更新」
 
-不想自定圖的預設圖片CSS：https://github.com/akira02/Zero-Memo/blob/master/plurk.css
+不想自定圖的預設圖片CSS：https://github.com/chiakich/Zero-Memo/blob/master/plurk.css
 
 ## 使用例
 
